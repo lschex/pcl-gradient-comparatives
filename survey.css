@@ -1,0 +1,784 @@
+/* Modified from Rutgers-Princeton Style Sheet
+	by David Morrow
+	for CUNY Graduate Center's Ph.D. Program in Philosophy */
+
+/* Layout Definitions */
+
+body {
+/*	background-color: #333666; */
+	background-color: #506b8a;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-family: Verdana, Geneva, "Trebuchet MS", Georgia, sans-serif;
+	font-size: 14px;
+	line-height: 180%;
+	}
+
+#shade {
+/*	width: 0px; */
+	margin-top: 0px;
+	/*margin-bottom: 30px; */
+	margin-left: calc(50% - 335px);
+/*	background-image: url(sh.gif); */
+	}
+
+
+#content {
+/*	width: 800px;  */
+	margin-top: -50px;
+/*	margin-bottom: 0px; */
+/* 	margin-right: 25px; */
+ 	margin-left: -115px;
+	background: white;
+/*	border: 2px solid #bebebe; */
+/*	text-align: left; */
+/* 	min-height: 100px; */
+
+	width: 900px;
+  height: 500px;
+	border-radius:34px;
+/*	font-size:20px; */
+/*	line-height:100px; */
+	text-align:center;
+/*	background:#000 */
+
+
+	}
+
+* html #content {
+	height: 50px;
+		}
+
+ #tabs {
+
+      float: left;
+
+      width: 100%;
+
+      border-top: 1px solid #bebebe;
+      background: #cccccc;
+
+/*      border-bottom: 1px solid #bebebe; */
+
+      font-size: 93%;
+
+      line-height: normal;
+
+      }
+
+
+#tabs a {
+
+      float: left;
+
+/*      background: url("tableft.gif") no-repeat left top; */
+
+      margin: 0px;
+
+      padding: 0px 0px 0px 4px;
+
+      margin-left: 10px;
+
+      text-decoration: none;
+
+      }
+
+
+#tabs a span {
+
+      float: left;
+
+      display: block;
+
+      background: #cccccc;
+
+/*      padding: 5px 15px 4px 6px; */
+      padding: 7px 15px 7px 15px;
+/*      padding: 2px 10px 2px 10px;  */
+      color: black;
+
+      }
+
+#tabs a active {
+      float: left;
+
+      display: block;
+
+      padding: 7px 15px 7px 15px;
+/*      padding: 2px 10px 2px 10px;  */
+
+      color: black;
+      background: #fff;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+
+    #tabs a span {float:none;}
+    #tabs a active {float:none;}
+
+
+/* End IE5-Mac hack */
+
+#tabs a:hover span {
+
+      color: white;
+
+      }
+
+
+#tabs a:hover {
+
+	background-position: 0% -42px;
+	border-bottom: none;
+	}
+
+
+#tabs a:hover span {
+	background-position: 100% -42px;
+	}
+
+#title {
+	top: 0px;
+	left: 0px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	background-color: white;
+	width: 700px;
+	}
+
+#pub {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 15px 0px 10px 0px;
+/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;
+	width: 700px;
+	min-height: 222px;
+
+	}
+
+div.spacer {
+	clear: both;
+	}
+
+
+/* Text Definitions */
+
+/* for all pages. */
+p {
+	font-family: Verdana, Geneva, "Trebuchet MS", Georgia, sans-serif;
+	font-size: 14px;
+	line-height: 180%;
+	/*margin-left: 12px; */
+	margin-right: 0px;
+	color: black;
+	}
+
+h1 {
+
+	font-family: Verdana, Trebuchet;
+/*	color: #000099; */
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0px 0px 0px 0px;
+	margin-top: -5px
+	margin-bottom: 20px;
+/*	margin-left: 3px; */
+	letter-spacing: 0.2em;
+	}
+
+h2 {
+
+	font-family: Trebuchet, Verdana;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+/*	margin-left: 8px; */
+	letter-spacing: 0.1em;
+	}
+
+h3 {
+
+	font-family: Trebuchet, Verdana;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+/*	margin-left: 20px; */
+	letter-spacing: 0.1em;
+	}
+
+h4 {
+
+	font-family: Trebuchet, Verdana;
+	color: black;
+	font-size: 11px;
+	font-weight: normal;
+	margin-bottom: 5px;
+/*	margin-left: 35px; */
+	letter-spacing: 0.1em;
+	}
+
+
+
+li a {
+	  font-weight: normal;
+	  color: white;
+	  }
+
+td { vertical-align: top; }
+
+a {
+	text-decoration: none;
+/* 	color: #000099; */
+/*	color: #8cbbef; */
+/*	color: #80a9e3; */
+	color: #506b8a;
+	}
+
+a:hover {
+	border-bottom: 1px dotted #000099;
+	}
+
+
+.pub {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: black;
+	text-indent: -15px;
+	margin: 0px 0px 5px 35px;
+	}
+
+
+.pub a {
+	text-decoration: none;
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.pub a:hover {
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.pubf {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 250%;
+	text-align: left;
+	color: black;
+	text-indent: -15px;
+	margin: 0px 0px 10px 35px;
+	}
+
+
+.pubf a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted #000099;
+	}
+
+.pubf a:hover {
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.pdf {
+	margin: 0px 0px 0px 0px;
+	border-bottom: 1px solid white;
+	color: white;
+    }
+
+.pdf a {
+	color: white;
+	border-bottom: 1px solid white;
+	text-decoration: none;
+}
+
+.pdf a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+	text-decoration: none;
+}
+
+/*  for research page. */
+.res {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: black;
+	margin: 0px 0px 5px 20px;
+	}
+
+.res a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted #000099;
+	}
+
+.res a:hover {
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.wipdes {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: #aaaaaa;
+	margin: -5px 0px 10px 40px;
+	}
+
+
+.adcomment {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: #000099;
+	margin: 0px 0px 10px 30px;
+	}
+
+/* for teaching page. */
+.teach {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: black;
+	margin: 0px 0px 5px 20px;
+	}
+
+.teach a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted #000099;
+	}
+
+.teach a:hover {
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.title {
+	color: #000099;
+	}
+
+.tcomment {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	color: #7E7C7C;
+	margin: 0px 0px 10px 35px;
+	}
+
+.tcomment a {
+	color: #7E7C7C;
+	text-decoration: none;
+	border-bottom: 1px dotted #a0a0a0;
+	}
+
+.tcomment a:hover {
+ 	color: #000099;
+ 	border-bottom: 1px dotted #000099;
+
+ 	}
+
+/* for personal pages. */
+.selected {
+	font-size: 14px;
+	color: black;
+	}
+
+.thumb {
+	padding: 2px;
+	border: 1px solid #000099;
+	}
+
+.caption {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+
+	color: #a0a0a0;
+	font-size: 11px;
+	}
+
+
+/* for admin page. */
+
+ul.admin {
+	float: left;
+	font-family: Trebuchet, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 140%;
+	margin: 0px 50px 10px 50px;
+	color: black;
+	}
+
+li.admin {
+	width: 250px;
+	float: left;
+	font-family: Trebuchet, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 140%;
+	margin: 5px 30px 5px 0px;
+	color: #000099;
+	list-style-type: none;
+	}
+
+li.admin a {
+	color: #000099;
+	text-decoration: none;
+	}
+
+li.admin a:hover {
+	border-bottom: 1px dotted #000099;
+	}
+
+.admin ul {
+	margin-top: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 1px dotted #a0a0a0;
+	}
+
+.admin ul li {
+	font-family: Trebuchet, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 140%;
+	margin: 0px 0px 0px 0px;
+	color: #aaaaaa;
+	list-style-position: inside;
+	list-style-type: lower-alpha;
+	}
+
+.admin ul li ul li {
+	margin-top: 0px;
+	padding: 0px;
+	margin-left: 10px;
+	width: 200px;
+	list-style-type: lower-roman;
+	}
+
+.admin ul li a {
+	color: #aaaaaa;
+	text-decoration: none;
+	}
+
+.admin ul li a:hover {
+	color: #000099;
+	border-bottom: 1px dotted #000099;
+	}
+
+.warning {
+	font-family: Trebuchet, Verdana;
+	margin-left: 35px;
+	color: #000099;
+	font-size: 13px;
+	text-indent: 0px;
+	}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1.likert-header {
+  padding-left:4.25%;
+  margin:20px 0 0;
+}
+form .statement {
+  display:block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom:10px;
+}
+
+form .statement2 {
+  display:block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom:10px;
+  text-align: right;
+}
+
+
+form .likert {
+  list-style:none;
+  width:100%;
+  margin:0;
+  padding:0 0 35px;
+  display:block;
+  border-bottom:2px solid #efefef;
+}
+form .likert:last-of-type {border-bottom:0;}
+form .likert:before {
+  content: '';
+  position:relative;
+  top:11px;
+  left:9.5%;
+  display:block;
+  background-color:#efefef;
+  height:4px;
+  width:78%;
+}
+form .likert li {
+  display:inline-block;
+  width:19%;
+  text-align:center;
+  vertical-align: top;
+}
+form .likert li input[type=radio] {
+  display:block;
+  position:relative;
+  top:0;
+  left:50%;
+  margin-left:-6px;
+
+}
+form .likert li label {width:100%;}
+form .buttons {
+  margin:30px 0;
+  padding:0 4.25%;
+  text-align:right
+}
+form .buttons button {
+  padding: 5px 10px;
+  background-color: #67ab49;
+  border: 0;
+  border-radius: 3px;
+}
+form .buttons .clear {background-color: #e9e9e9;}
+form .buttons .submit {background-color: #67ab49;}
+form .buttons .clear:hover {background-color: #ccc;}
+form .buttons .submit:hover {background-color: #14892c;}
+
+line {
+	stroke: #333;
+	stroke-width: 10;
+}
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:hover + img{ /* (RADIO CHECKED) IMAGE STYLES */
+   /* border:2px solid #f00; */
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 231, 255, 1));
+}
+
+/* Coordinates thanks to mathopenref.com */
+/* https://www.mathopenref.com/coordpolycalc.html */
+/* Center x: -110 (half of 220, the size of the images) */
+/* Center y: 320 */
+/* Number of sides: 5 */
+/* Radius: 250 */
+/* Start angle (degrees): 15 */
+/* top ~ y, left ~ x */
+
+
+
+#object-position-1 {
+    position: absolute;
+		top: 200px;
+		right: calc(50% + 235px);
+
+}
+
+#object-position-2 {
+    position: absolute;
+		top: 200px;
+		right: calc(50% + 20px);
+}
+
+#object-position-3 {
+    position: absolute;
+		top: 200px;
+		left: calc(50% + 30px);
+}
+
+#object-position-4 {
+    position: absolute;
+		top: 200px;
+    left: calc(50% + 240px);
+}
+
+
+
+#submit-button-position {
+    position: absolute;
+    top: 800px;
+    left: calc(50% + 300px);
+}
+
+#audio-button {
+    position: absolute;
+    top: 720px;
+    left: calc(50% - 200px);
+    color: white;
+    width: 400px;
+}
+
+.myButton {
+    cursor:pointer;
+    width: 50px;
+    height: 30px;
+    /* border: none; */
+    position: absolute;
+    top: 455px;
+    right: calc(50% - 23px);
+}
+
+.myInstructions {
+    width: 500px;
+    height: 50px;
+    border: none;
+    position: absolute;
+		top: 60px;
+		left: calc(50% - 250px);
+		font-size: 20px;
+}
+
+.myGaugeStatement {
+    width: 500px;
+    height: 50px;
+    border: none;
+    position: absolute;
+		top: 360px;
+		left: calc(50% - 250px);
+		font-size: 18px;
+}
+
+.leftStatement {
+    width: 500px;
+    height: 50px;
+    border: none;
+    position: absolute;
+		top: 400px;
+    left: calc(50% - 580px);
+		font-size: 18px;
+}
+
+.rightStatement {
+    width: 500px;
+    height: 50px;
+    border: none;
+    position: absolute;
+		top: 400px;
+    left: calc(50% + 80px);
+		font-size: 18px;
+}
+
+.myButton:hover {
+  -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 231, 255, 1));
+}
+
+
+
+#begin {
+    position: absolute;
+    top: 230px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    background-color: darkblue;
+    padding: 10px 10px;
+    font-size:15px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%
+}
+
+#begin:hover {
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 231, 255, 1));
+}
+
+
+#progress-indicator-position {
+    position: absolute;
+    top: -5px;
+    left: calc(50% - 10px);
+    color: gray;
+    width: 20px;
+    text-align: center;
+}
+
+
+
+div#preload { display: none; }
+
+
+/* left: calc(50% + 200px); */
+
+
+/* from https://codepen.io/widhi_allan/pen/ltaCq */
+
+/* .shadowfilter { */
+/* 	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80)); */
+/* 	-webkit-transition: all 0.5s linear; */
+/* 	-o-transition: all 0.5s linear; */
+/* 	transition: all 0.5s linear; */
+
+/* }.shadowfilter:hover { */
+/* 	-webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8)); */
+/* } */
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+	width: 60%;
+	margin-top: 380px;
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
